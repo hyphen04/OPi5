@@ -10,7 +10,7 @@ Pinout setup for orange pi 5
 
 ## Installation
 
-Install my-project with npm
+Clone OPi repository
 
 ```bash
   mkdir Your-project-name
