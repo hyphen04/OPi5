@@ -6,9 +6,7 @@ Pinout setup for orange pi 5
 
 
 
-
-
-## Installation
+## Download
 
 Clone OPi repository
 
