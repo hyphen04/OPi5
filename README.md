@@ -8,7 +8,7 @@ Pinout setup for orange pi 5
 
 ## Download
 
-Clone OPi repository
+Clone OPi5 repository
 
 ```bash
   mkdir Your-project-name
