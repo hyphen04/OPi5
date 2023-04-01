@@ -2,6 +2,9 @@
 # Copyright (c) 2018 Richard Hull
 # See LICENSE.md for details.
 
+#EDITED BY hyphen04
+#GITHUB - https://github.com/hyphen04
+
 import functools
 from copy import deepcopy
 from OPi.constants import BOARD, BCM, SUNXI, CUSTOM
