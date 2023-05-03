@@ -14,7 +14,7 @@ Clone OPi5 repository
   mkdir Your-project-name
   cd Your-project-name
   git clone https://github.com/hyphen04/OPi5.git
-  #if Folder name is OPi-main rename it into OPi
+  #if Folder name is OPi5-main rename it into OPi5
 ```
 
 
