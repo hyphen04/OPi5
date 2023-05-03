@@ -46,29 +46,6 @@ _pin_map = {
 	26:35
     },
 
-    # BCM pin to actual GPIO pin
-    BCM: {
-        2: 12,
-        3: 11,
-        4: 6,
-        7: 10,
-        8: 13,
-        9: 16,
-        10: 15,
-        11: 14,
-        14: 198,
-        15: 199,
-        17: 1,
-        18: 7,
-        22: 3,
-        23: 19,
-        24: 18,
-        25: 2,
-        27: 0
-    },
-
-    SUNXI: _sunXi(),
-
     # User defined, initialized as empty
     CUSTOM: {}
 }
@@ -79,7 +56,7 @@ def set_custom_pin_mappings(mappings):
 
 
 def get_gpio_pin(mode, channel):
-    assert mode in [BOARD, BCM, SUNXI, CUSTOM]
+    assert mode in [BOARD]
     return _pin_map[mode][channel]
 
 
